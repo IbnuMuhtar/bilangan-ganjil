@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int n;
+
+   // Meminta input dari user
+   cout << "Masukkan nilai n: ";
+   cin >> n;
+
+   // Mencetak bilangan ganjil dari 1 hingga n
+   cout << "Bilangan ganjil dari 1 hingga " << n << " adalah: ";
+   for (int i = 1; i <= n; i++) {
+      if (i % 2 != 0) {
+         cout << i << " ";
+      }
+   }
+
+   return 0;
+}
